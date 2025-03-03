@@ -31,6 +31,8 @@
 #include "hardware/rosc.h"
 #include "hardware/clocks.h"
 #include "hardware/gpio.h"
+#include <pico/runtime_init.h>
+#include <pico/sleep.h>
 #include <iterator>
 using namespace std;
 
